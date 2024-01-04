@@ -1,0 +1,234 @@
+/*
+Theme Name: PFBI
+Theme URI: https://www.pfbi.institute/
+Author: PFBI
+Author URI: https://www.pfbi.institute/
+Description: WordPress blogging theme
+Tags: blog, theme
+Version: 1.0
+Requires PHP: 8.0
+Text Domain: PFBI
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+html {
+  position: relative;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Poppins-Regular";
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+}
+/************************************Fonts Integration | Neuehasdisplay & redtowns *********************/
+@font-face {
+  font-family: "NeueHaasDisplayMediu";
+  src: url("./assets/css/fonts/NeueHaasDisplayMediu.woff") format("woff");
+}
+@font-face {
+  font-family: "NeueHaasDisplayBold";
+  src: url("./assets/css/fonts/NeueHaasDisplayBold.woff") format("woff");
+}
+@font-face {
+  font-family: "NeueHaasDisplayMediumItalic";
+  src: url("./assets/css/fonts/NeueHaasDisplayMediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/css/fonts/Poppins-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./assets/css/fonts/Poppins-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./assets/css/fonts/Poppins-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/css/fonts/Poppins-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./assets/css/fonts/Poppins-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-SemiBoldItalic";
+  src: url("./assets/css/fonts/Poppins-SemiBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "NeueHaasDisplayRoman";
+  src: url("./assets/css/fonts/NeueHaasDisplayRoman.woff") format("woff");
+}
+@font-face {
+  font-family: "NeueHaasDisplayBlack";
+  src: url("./assets/css/fonts/NeueHaasDisplayBlack.woff") format("woff");
+}
+@font-face {
+  font-family: "NeueHaasDisplayBlackItalic";
+  src: url("./assets/css/fonts/NeueHaasDisplayBlackItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins-MediumItalic";
+  src: url("./assets/css/fonts/Poppins-MediumItalic.woff") format("woff");
+}
+/***********************************colors Declaration****************/
+.clrwhite {
+  color: #fff;
+}
+.clrblack {
+  color: #000;
+}
+.clrblue {
+  color: #105caa;
+}
+.clrdarkblue {
+  color: #003974;
+}
+.bgblue {
+  background: #105caa;
+}
+.bgskyblue {
+  background: #f0f5fa;
+}
+.bgorange {
+  background: #f69322;
+}
+.bglight {
+  background: #f6942133;
+}
+/*********************************font declaration*******************/
+.poplight {
+  font-family: "Poppins-Light";
+}
+.popbold {
+  font-family: "Poppins-Bold";
+}
+.popregular {
+  font-family: "Poppins-Regular";
+}
+.popsemibold {
+  font-family: "Poppins-SemiBold";
+}
+.popmedium {
+  font-family: "Poppins-Medium";
+}
+.popmediumitalic {
+  font-family: "Poppins-MediumItalic";
+}
+.popsemibolditalic {
+  font-family: "Poppins-SemiBoldItalic";
+}
+.neuemedium {
+  font-family: "NeueHaasDisplayMediu";
+}
+.neuebold {
+  font-family: "NeueHaasDisplayBold";
+}
+.neueitalic {
+  font-family: "NeueHaasDisplayMediumItalic";
+}
+.neueblackitalic {
+  font-family: "NeueHaasDisplayBlackItalic";
+}
+.neueregular {
+  font-family: "NeueHaasDisplayRoman";
+}
+.neueblack {
+  font-family: "NeueHaasDisplayBlack";
+}
+/*******************************font sizes****************************/
+.fs20 {
+  font-size: 20px;
+}
+.fs25 {
+  font-size: 25px;
+}
+.fs28 {
+  font-size: 28px;
+}
+.fs30 {
+  font-size: 30px;
+}
+.fs40 {
+  font-size: 40px;
+}
+.lh25 {
+  line-height: 25px;
+}
+.fs50 {
+  font-size: 50px;
+}
+.fs60 {
+  font-size: 60px;
+}
+.fs100 {
+  font-size: 85px;
+}
+.lh30 {
+  line-height: 30px;
+}
+.lh35 {
+  line-height: 35px;
+}
+.lh40 {
+  line-height: 40px;
+}
+.lh50 {
+  line-height: 50px;
+}
+.lh60 {
+  line-height: 60px;
+}
+.lh90 {
+  line-height: 90px;
+}
+/***************************others*************************************/
+.container-fluid {
+  width: 100%;
+  padding: 0 140px;
+  max-width: 100%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none !important;
+}
+.transition {
+  transition: 0.3s all ease-in-out;
+}
+.spacing-bottom-30 {
+  padding-bottom: 30px;
+}
+.spacing-bottom-50 {
+  padding-bottom: 50px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+.section-padding-top {
+  padding-top: 60px;
+}
+.section-padding-bottom {
+  padding-bottom: 70px;
+}
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+.margin-top-100 {
+  margin-top: 100px;
+}
+.mt-60 {
+  margin-top: 60px !important;
+}
