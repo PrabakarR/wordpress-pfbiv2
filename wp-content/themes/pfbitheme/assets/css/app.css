@@ -1,5 +1,4 @@
 /*********************header**************/
-/*********************header**************/
 div#st-3 {
 	display: none;
 }
@@ -6642,9 +6641,26 @@ a.story-readmore {
     font-size: 11px;
     bottom: -21px;
 }
+.pfbi-header-menu .login-menu{
+	display: none;
+}
 @media (min-width: 992px) {
 	.w-md-70 {
 		width: 75%;
+	}
+	.notcollapse-form{
+		column-gap: 20px;
+		padding-left: 20px;
+	}
+	.search-menu,.login-menu{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	a.login-btn{
+		margin:  0px !important;
+	}
+	.pfbi-header-menu ul.navbar-nav{
+		padding-right: 10px;
 	}
 }
 @media (max-width: 991px) {
@@ -6676,11 +6692,20 @@ a.story-readmore {
     }
     .navbar-toggler {
         padding-right: 0;
+		padding-left: 10px;
     }
+	.search-menu{
+		padding: 15px 15px 15px 0px;
+	}
+	.login-menu {
+		padding: 15px 0px 15px 0px;
+	}
+	.login-btn{
+		width: auto;
+		height: 35px;
+		font-size: 13px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
     
 }
-
-
-
-
-
