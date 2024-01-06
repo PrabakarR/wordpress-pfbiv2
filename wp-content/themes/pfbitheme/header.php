@@ -24,7 +24,7 @@ if ( function_exists( 'wp_body_open' ) ) {
   <header class="header-pfbi theme_header_pfbi">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
       <div class="container-fluid">
-        <a href="https://www.pfbi.institute/home" class="pfbilogo navbar-brand m-0 p-0">
+        <a href="#" class="pfbilogo navbar-brand m-0 p-0">
           <?php $custom_logo_id = get_theme_mod('custom_logo');
           $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
           if (has_custom_logo()) {
